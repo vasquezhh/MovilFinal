@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vasquezh.stuff.TagDialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/tag_text" />
+    <EditText
+        android:id="@+id/edtTagNote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:hint="@string/type_here"/>
+
+</LinearLayout>
